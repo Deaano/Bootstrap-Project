@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>London Tours</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+/*   NAVBAR   */
+
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">London Tours</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active home-link" aria-current="page" href="#navbar">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#attractions">Attractions</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Tours
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#packages">Silver Tour</a></li>
+              <li><a class="dropdown-item" href="#packages">Gold Tour</a></li>
+              <li><a class="dropdown-item" href="#packages">Platinum Tour</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Book A Tour</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+/*   CAROUSEL   */
+
+  <section id="carousel-section">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/london.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/harrypotter.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+         <img src="images/windsortour.jfif" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+/*   ALERT BANNER   */
+
+    <div class="alert alert-dark" role="alert">
+      check out our Platinum package and use code vlondon1 for 50% off!
+      <button type="button" class="btn btn-alert btn-light">Packages</button>
+    </div>
+  </section>
+
+/*   ATTRACTIONS   */
+
+  <section id="attractions" class="attractions-section">
+
+     <h2 class="attractions-title">Attractions</h2>
+  <hr>
+     <p class="attractions-section-header">Book now! For a day you and your family will never forget.</p>
+
+    <div class="card mb-3" style="max-width: 1400px; height:auto">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img class="card-image" src="images/stoneHenge.jpg" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Stonehenge, Windsor Castle, and Bath from London</h5>
+            <p class="card-text">Visit some of the top attractions outside of London on this day trip to Stonehenge, Windsor Castle and the historic town of Bath. Start at Windsor Castle, home to the British royal family, for a tour of the State
+              Apartments and St George’s Chapel, and then continue west of London to Salisbury, home of the mysterious Stonehenge rock formations. Finally, arrive in Bath, known for its elegant Georgian architecture and Roman baths. All admission
+              tickets are included in the tour price.</p>
+            <button type="button" class="btn btn-danger">Check Availability</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; height:auto">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img class="card-image" src="images/downtown.jpg" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Downton Abbey Village, Blenheim Palace and Cotswolds Day Trip from London</h5>
+            <p class="card-text">Experience a wealth of England’s rural and historical treasures, and the fictional ‘Downton Abbey’ village, on this full-day trip from London with an expert guide. Marvel at splendid Blenheim Palace, the
+              UNESCO-protected country house where Sir Winston Churchill was born, and discover the enchanting scenery of the Cotswolds, with visits to an idyllic village: either Bibury or Bourton-on-the-Water. Lastly, explore the pretty village of
+              Bampton to see some of the locations where the much-loved TV series, ‘Downton Abbey’, was filmed, and enjoy time for lunch here before returning to London.
+            </p>
+            <button type="button" class="btn btn-danger">Check Availability</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 " style="max-width: 1400px; height:auto">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img class="card-image" src="images/harry-tour.jpg" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Harry Potter Tour of Warner Bros. Studio in London</h5>
+            <p class="card-text">Immerse yourself in the spellbinding world of Harry Potter™ on this trip to the Warner Bros. Studio Tour London. Travel to the fabled Harry Potter studios by air-conditioned coach from central London, and on arrival,
+              trace the footsteps of Hogwarts’ student wizards at leisure. Behold original sets such as Platform 9 ¾ and Diagon Alley; see the Hogwarts Express steam train; ride a broomstick like the cast; and uncover the behind-the-scenes secrets of
+              the movies’ on-screen wizardry. This Harry Potter studio London tour includes round-trip coach transport and entrance tickets.
+            </p>
+            <button type="button" class="btn btn-danger">Check Availability</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 1400px; height:auto">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img class="card-image" src="images/eye.jpg" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">London Eye Fast-Track Ticket</h5>
+            <p class="card-text">Experience one of London’s must-see attractions with this skip-the-line Lastminute.com London Eye ticket. Bypass the long queue and enjoy priority access and boarding for a standard flight in a shared capsule. Then
+              admire panoramic views over the Thames River, Big Ben and other landmarks on your "flight." Your ticket includes interactive Samsung Galaxy Tab-powered guides and admission to the London Eye 4D Experience, an immersive journey that
+              brings London alive through 3D film and multi-sensory effects.
+            </p>
+            <button type="button" class="btn btn-danger">Check Availability</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+/*   PACKAGES   */
+
+  <section id="packages" class="package-section">
+
+     <h2 class="section-title">Packages</h2>
+  <hr>
+     <p class="section-sub">Great value packages that will please all the family.</p>
+
+    <div class="card-group">
+      <div class="card card-package">
+        <img src="images/silver.jfif" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Silver Package</h5>
+          <p class="card-package-text">Every package includes a London tour for a family up to 5. With breaks throughout the days were we will stop and have picnic and park time for the kids </p>
+          <button type="button" class="btn btn-danger">Check Availability</button>
+        </div>
+      </div>
+
+      <div class="card card-package">
+        <img class="package-image" src="images/gold.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gold Package</h5>
+          <p class="card-package-text">Every package includes a London tour for a family up to 5. With breaks throughout the days were we will stop and have picnic and park time for the kids </p>
+          <button type="button" class="btn btn-danger">Check Availability</button>
+        </div>
+      </div>
+
+      <div class="card card-package">
+        <img class="package-image" src="images/platinum-package.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Platinum Package</h5>
+          <p class="card-package-text">Every package includes a London tour for a family up to 5, With breaks throughout the days were we will stop and have picnic and park time for the kids </p>
+          <button type="button" class="btn btn-danger">Check Availability</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+/*   FREQUENTLY ASKED QUESTIONS   */
+
+  <section class="question-section">
+
+    <h2 class="section-title">Frequently Asked Questions</h2>
+
+    <hr>
+
+    <p class="section-sub">The answers provided below are based on
+      answers previously given by the tour provider to customers’ questions.</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p class="q-and-a">
+            Q:What are the best tours in London?
+            <br>
+            A:The best tours in London according to Viator travelers are:</p>
+          <ul>
+            <li>Stonehenge, Windsor Castle, and Bath from London</li>
+            <li>Downton Abbey Village, Blenheim Palace and Cotswolds Day Trip from London</li>
+            <li>Harry Potter Tour of Warner Bros. Studio in London</li>
+            <li>London Eye Fast-Track Ticket</li>
+            <li>Ghosts, Ghouls & Gallows: London Virtual Tour</li>
+          </ul>
+          <br>
+          <p class="q-and-a">
+            Q:What tours in London are 1 hour or less?
+            <br>
+            A:Tours in London that are 1 hour or less are:</p>
+          <ul>
+            <li>London Eye Fast-Track Ticket</li>
+            <li>Ghosts, Ghouls & Gallows: London Virtual Tour</li>
+            <li>Online Jack the Ripper Murder Mystery</li>
+            <li>Westminster to Greenwich Sightseeing Thames Cruise</li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <p class="q-and-a">
+            Q:What tours in London are taking additional safety precautions?
+            <br>
+            A:These London experiences are providing additional COVID-19 safety measures:</p>
+          <ul>
+            <li>Stonehenge, Windsor Castle, and Bath from London</li>
+            <li>Downton Abbey Village, Blenheim Palace and Cotswolds Day Trip from London</li>
+            <li>Harry Potter Tour of Warner Bros. Studio in London</li>
+            <li>London Eye Fast-Track Ticket</li>
+            <li>Lake District Rail Day Trip from London</li>
+          </ul>
+          <br>
+          <p class="q-and-a">
+            Q:What tours in London are good for avoiding crowds?
+            <br>
+            A:These hidden gems in London may have limited interaction with crowds:</p>
+          <ul>
+            <li>Downton Abbey Village, Blenheim Palace and Cotswolds Day Trip from London</li>
+            <li>Lake District Rail Day Trip from London</li>
+            <li>London Royal Parks Bike Tour including Hyde Park</li>
+            <li>Classic London Landmarks Bicycle Tour</li>
+            <li>Up at The O2 Climb in London</li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+/*   FOOTER   */
+
+  <section class="footer-section">
+    <div class="footer">
+      <div class="row">
+        <div class="col-6">
+          <ul>
+            <li class="footer-item"> <a class="footer-link" href="#">Help Center</a></li>
+            <li class="footer-item"> <a class="footer-link" href="#">Privacy and Cookie Statement</a></li>
+            <li class="footer-item"> <a class="footer-link" href="#">About London Tours</a></li>
+            <li class="footer-item"> <a class="footer-link" href="#">Site Map</a></li>
+          </ul>
+        </div>
+        <div class="col-6">
+          <ul>
+            <li class="footer-item"> <a class="footer-link" href="#">Suppliers Sign Up</a></li>
+            <li class="footer-item"> <a class="footer-link" href="#">Travel Agents</a></li>
+            <li class="footer-item"> <a class="footer-link" href="#">Distribution Programme</a></li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="footer-header">London Tours</h3>
+      <hr class="footer-hr">
+      <p class="footer-text">© 1997–2021 London Tours, Inc. <br>Terms & Conditions | Manage Settings </p>
+      <p class="footer-text2"></p>
+    </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+
+</html>
